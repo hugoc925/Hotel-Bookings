@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+.active {
+  color: white;
+}
+a {
+  color: black;
+}
+.header {
+  align-items: center;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  color: var(--grey);
+  display: flex;
+  font-size: 1rem;
+  gap: 2em;
+  justify-content: center;
+  padding: 1em 2em;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.main {
+  width: 100%;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.ReservationLink {
+  position: relative;
+  margin: 1rem;
+  font-size: 1.5em;
+}
+
+.RoomTypesLink {
+  position: relative;
+  margin: 1rem;
+  font-size: 1.5em;
+}
