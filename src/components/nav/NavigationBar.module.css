@@ -18,7 +18,7 @@ a {
   font-size: 1rem;
   gap: 2em;
   justify-content: center;
-  padding: 1em 2em;
+  /* padding: 1em 2em; */
   position: sticky;
   top: 0;
   z-index: 100;
